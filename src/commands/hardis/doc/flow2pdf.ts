@@ -104,7 +104,7 @@ If [AI integration](${CONSTANTS.DOC_URL_ROOT}/salesforce-ai-setup/) is configure
     await mdToPdf({ path: this.outputFile }, { 
       dest: this.outputFile.replace('.md', '.pdf'), 
       css: `img {
-              max-width: 30%; /* Adjust this to resize all images */
+              max-width: 50%;
               display: block;
               margin: 0 auto;
             }`,
